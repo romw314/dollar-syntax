@@ -1,0 +1,10 @@
+{
+  "name": "dollar-syntax",
+  "version": "0.0.1",
+  "description": "Use the dollar syntax in javascript (e.g. delete$(new MyClass()))",
+  "main": "index.js",
+  "repository": "https://github.com/romw314/dollar-syntax",
+  "author": "romw314",
+  "license": "MIT",
+  "private": false
+}
