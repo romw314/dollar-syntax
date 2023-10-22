@@ -25,7 +25,7 @@ yarn add dollar-syntax
 			const a = 7;
 			const b = { value: 7 };
 			const c = "7";
-			// with a lnumberer, this will not cause a warning
+			// with a linter, this will not cause a warning
 			const unused = "some unused value";
 			console.log(number$(a)); // convert
 			console.log(number$(b));
