@@ -58,6 +58,11 @@
 			return obj;
 		},
 		delete$: () => {},
+		m$: (...methods) => value => {
+			for (const method of methods)
+				value = method(value);
+			return value;
+		}
 	};
 
 	function enable(glob) {

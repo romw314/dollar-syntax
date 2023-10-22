@@ -31,9 +31,9 @@ yarn add dollar-syntax
 			console.log(number$(b));
 			console.log(number$(c));
 			console.log(string$(b)); // a string convert
-			console.log(object$(a)); // an object convert
-			console.log(object$(c));
-			console.log(m$(number$, object$)(c)); // convert to int and then to object
+			console.log(object$(a).value); // an object convert
+			console.log(object$(c).value);
+			console.log(m$(number$, object$)(c).value); // convert to int and then to object
 			// here the "unused" variable is "used"
 			delete$(unused); // discard
 			/*
@@ -42,9 +42,9 @@ yarn add dollar-syntax
 			 * 7
 			 * 7
 			 * "7"
-			 * { value: 7 }
-			 * { value: "7" }
-			 * { value: 7 }
+			 * 7
+			 * "7"
+			 * 7
 			 */
 		</script>
 	</body>
