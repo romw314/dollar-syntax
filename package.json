@@ -1,10 +1,16 @@
 {
-  "name": "dollar-syntax",
-  "version": "0.0.4",
-  "description": "Use the dollar syntax in javascript (e.g. delete$(new MyClass()))",
-  "main": "index.js",
-  "repository": "https://github.com/romw314/dollar-syntax",
-  "author": "romw314",
-  "license": "Unlicense",
-  "private": false
+	"name": "dollar-syntax",
+	"version": "0.0.4",
+	"description": "Use the dollar syntax in javascript (e.g. delete$(new MyClass()))",
+	"main": "index.js",
+	"repository": "https://github.com/romw314/dollar-syntax",
+	"author": "romw314",
+	"license": "Unlicense",
+	"private": false,
+	"scripts": {
+		"test": "jest"
+	},
+	"devDependencies": {
+		"jest": "^29.7.0"
+	}
 }

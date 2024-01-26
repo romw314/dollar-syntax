@@ -12,7 +12,7 @@
 			if (value.int !== undefined)
 				return syntax.number$(value.int);
 			if (typeof(value) === 'string')
-				return parseInt(value);
+				return value.includes('.') ? parseFloat(value) : parseInt(value);
 			if (typeof(value) === 'function')
 				return syntax.number$(value());
 			return Number(value);
@@ -77,4 +77,4 @@
 	// Browser
 	if (typeof(window) === 'object')
 		enable(window);
-})()
+})();
