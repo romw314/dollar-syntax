@@ -1,0 +1,17 @@
+version: 2.1
+jobs:
+  test:
+    docker:
+      - image: guergeiro/pnpm:18-8
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: pnpm install
+      - run:
+          name: Run tests
+          command: pnpm test 
+workflows:
+  ci:
+    jobs:
+      - test
