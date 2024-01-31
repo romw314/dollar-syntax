@@ -1,6 +1,10 @@
 # dollar-syntax
 Use the dollar syntax in JavaScript. No dependencies.
 
+```
+do$ -coming soon in other languages
+```
+
 ## Installation
 ### npm
 ```sh
