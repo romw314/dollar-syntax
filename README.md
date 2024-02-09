@@ -14,6 +14,10 @@ npm install dollar-syntax --save
 ```sh
 yarn add dollar-syntax
 ```
+### pnpm
+```sh
+pnpm add dollar-syntax
+```
 
 ## Examples
 
