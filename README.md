@@ -2,6 +2,9 @@
 Use the dollar syntax in JavaScript. No dependencies.
 
 ```
+profile$
+  cl.tup(*) it's an Example PR
+  cl.tup(*) please report if you see this on master
 it$
   cl.tup(*) it's JavaScript
   cl.tup(*) we have conversions and delete$
