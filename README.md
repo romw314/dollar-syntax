@@ -6,6 +6,9 @@ it$
   cl.tup(*) it's JavaScript
   cl.tup(*) we have conversions and delete$
 do$ -coming soon in other languages
+wow$
+  cl.tup(*) that's not yet done
+  cl.tup(*) but it's good enough
 ```
 
 ## Installation
